@@ -40,3 +40,10 @@
     width: 80%;
   }
 }
+
+.img-2 {
+  width: 60%;
+  @include media-breakpoint-down(sm) {
+    width: 80%;
+  }
+}
