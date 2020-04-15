@@ -241,9 +241,7 @@ header {
     text-align: left;
     margin-left: 10px;
     margin-right: 10px;
-    @include media-breakpoint-down(sm) {
-      margin-bottom: 20px;
-    }
+    margin-bottom: 20px;
 
     img {
       position: absolute;
