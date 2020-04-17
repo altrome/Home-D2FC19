@@ -201,6 +201,41 @@ header {
   }
 }
 
+.resources {
+  
+  &.main {
+    background-color: rgba(201, 48, 115, 0.25);
+  }
+
+  .resource-button {
+    height: 120px;
+    width: 300px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    img {
+      position: absolute;
+      height: 120px;
+      width: 300px;
+      border-radius: 5px;
+      // opacity: 0.8;
+    }
+  }
+
+  h5 {
+    padding-top: 0;
+  }
+
+  .note {
+    width: 50%;
+    @include media-breakpoint-down(sm) {
+      width: 90%;
+    }
+  }
+}
+
 .quiz {
   
   &.main {
