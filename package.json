@@ -20,10 +20,10 @@
   "homepage": "https://github.com/bichotll/Home-D2FC19#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.26.3"
+    "sass": "^1.30.0"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.5.3",
     "ev-emitter": "^1.1.1"
   }
 }
